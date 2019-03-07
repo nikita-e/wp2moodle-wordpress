@@ -1,0 +1,19 @@
+{
+  "name": "nikita-e/wp2moodle-wordpress",
+  "description": "",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "moodle",
+    "wordpress"
+  ],
+  "homepage": "https://github.com/nikita-e/wp2moodle-wordpress",
+  "license": "GPL3",
+  "support": {
+    "issues": "https://github.com/nikita-e/wp2moodle-wordpress/issues",
+    "wiki": "https://github.com/nikita-e/wp2moodle-wordpress/wiki"
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "php": ">=5.6"
+  }
+}
