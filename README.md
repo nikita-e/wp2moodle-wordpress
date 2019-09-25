@@ -3,7 +3,7 @@ wp2moodle
 
 Wordpress-to-Moodle pass through authentication plugin (wordpress end). It takes the user that is logged onto wordpress and passes their details over to Moodle (encrypted using openssl), authenticates them, enrols them in one or more courses, then opens the course.
 
-> Note: The link that is gnerated is internally timestamped and will expire to reduce bookmarking or sharing. *How long* before it expires is configured in the  [Moodle-end plugin](https://github.com/frumbert/wp2moodle-moodle).
+> Note: The link that is gnerated is internally timestamped and will expire to reduce bookmarking or sharing. *How long* before it expires is configured in the  [Moodle-end plugin](https://github.com/nikita-e/wp2moodle-moodle).
 
 Demo / Further documenation
 ---------------------------
@@ -32,7 +32,7 @@ Note, you must to rename the zip to be just 'wp2moodle.zip' before you upload th
 3. In wp-admin, go to the plugins list and activate the plugin
 4. Click wp2moodle on the wordpress menu
 5. Set your moodle url (e.g. http://your-site.com/moodle/)
-6. Set the shared secret. This is a salt that is used to encrypt data that is sent to Moodle. Using a guid (http://www.newguid.org/) is a good idea. It must match the shared secret that you use on the Moodle plugin. (https://github.com/frumbert/wp2moodle-moodle)
+6. Set the shared secret. This is a salt that is used to encrypt data that is sent to Moodle. Using a guid (http://www.newguid.org/) is a good idea. It must match the shared secret that you use on the Moodle plugin. (https://github.com/nikita-e/wp2moodle-moodle)
 7. Other instructions are available on the settings page.
 
 How to use the plugin
@@ -64,4 +64,4 @@ Requirements:
 
 Licence:
 --------
-GPL2, as per Moodle.
+GPL3, as per Moodle.
